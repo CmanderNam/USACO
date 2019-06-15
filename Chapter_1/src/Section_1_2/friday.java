@@ -42,11 +42,10 @@ public class friday {
 			for(int j=0; j<12; j++){
 				date = month%7;
 				week[date]++;
-				if(isleapyear(i)){
-					month+=leapyear[j];
+				if(j==1 && isleapyear(i)){
+					month+=1;
 				}
-				else
-					month+=year[j];
+				month+=year[j];
 			}
 		}
 		 sb.append(week[5]).append(" ").append(week[6]).append(" ").append(week[0]).append(" ").append(week[1]).append(" ").append(week[2]).append(" ").append(week[3]).append(" ").append(week[4]);
@@ -54,15 +53,7 @@ public class friday {
 	}
 	
 	private static boolean isleapyear(int currentyear){
-		boolean result = false;
-		if(currentyear%100==0){
-			if(currentyear%400==0)
-				result = true;
-		}
-		else if(currentyear%4==0)
-			result = true;
-		
-		return result;
+		return currentyear % 4 ==0 &&(currentyear % 400==0 || currentyear %100 !=0);
 	}
 
 }
