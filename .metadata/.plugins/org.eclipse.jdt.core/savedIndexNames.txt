@@ -1,20 +1,6 @@
 INDEX VERSION 1.129+C:\Users\Samuel\Documents\GitHub\USACO\.metadata\.plugins\org.eclipse.jdt.core
-1242486132.index
-2532603039.index
-1821436105.index
-832355583.index
-627736769.index
-2970839950.index
-222178607.index
-3745168966.index
-522228326.index
-2936773411.index
-4202564332.index
-3621101505.index
-3462404329.index
-923673340.index
-1530677515.index
-3138510674.index
-1563911271.index
+1535080997.index
+3909628828.index
+1131986832.index
 1868149215.index
-1224868582.index
+3001810344.index
