@@ -19,8 +19,8 @@ public class notlast {
 
 		for (int i=0; i<n; i++) {
 			String name = in.next();
-			int c = in.nextInt();
-			list[map.get(name)].count += c;
+			int myV = in.nextInt();
+			list[map.get(name)].count += myV;
 		}
 
 		Arrays.sort(list);
